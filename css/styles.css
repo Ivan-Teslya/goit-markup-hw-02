@@ -4,42 +4,50 @@
 /* цвет ссылок при навидении #2196F3*/
 /* цвет тел и мыла в футоре rgba(255, 255, 255, 0.6) */
 /* цвет кем залито в конце rgba(255, 255, 255, 0.4)*/
+/* цвет кнопок #F5F4FA*/
+/*белый #FFFFFF*/
+:root {
+  --primari-text-color: #212121;
+  --color-button: #f5f4fa;
+  --color-hover: #2196f3;
+  --color-white: #ffffff;
+}
 
 body {
   background-color: #ffffff;
-  color: #212121;
+  color: var(--primari-text-color);
 }
 
 p {
   color: #757575;
 }
-h2 {
-  color: #212121;
+.hero-title {
+}
+.section-title {
+  color: var(--primari-text-color);
 }
 .list {
   list-style: none;
 }
-.logo-web {
-  color: #2196f3;
+.logo {
+  color: var(--color-hover);
 }
-.logo > .logo-studio {
-  color: #000000;
-}
-.logo-studiofooter {
-  color: #ffffff;
-}
+
 header {
   background-color: #ffffff;
 }
 .site-nav a {
-  color: #212121;
+  color: var(--primari-text-color);
 }
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #2196f3;
+  color: var(--color-hover);
+}
+.site-nav .link.current {
+  color: var(--color-hover);
 }
 .contact-nav-mail a {
-  color: #2196f3;
+  color: var(--color-hover);
 }
 .contact-nav-tel a {
   color: #757575;
@@ -65,4 +73,12 @@ footer {
 }
 .page-footer-end {
   color: rgba(255, 255, 255, 0.4);
+}
+.button-first {
+  color: var(--color-white);
+  background-color: var(--color-hover);
+}
+.button-second {
+  color: var(--primari-text-color);
+  background-color: var(--color-button);
 }
