@@ -4,25 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./scc/stylis.scc" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!--шапка-->
-    <header>
+    <header class="page-header">
       <nav>
-        <a href="/"> Web Studio </a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
+        <a href="/" class="logo">
+          <d class="logo-web">Web</d>
+          <d class="logo-studio">Studio</d>
+        </a>
+        <ul class="site-nav list">
+          <li><a href="./index.html">Студия</a></li>
+          <li><a href="./portfolio.html">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li>
+      <ul class="contact-nav list">
+        <li class="contact-nav-mail">
           <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li>
+        <li class="contact-nav-tel">
           <a href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
@@ -30,7 +33,7 @@
 
     <main>
       <!-- кнопки навигации  -->
-      <ul>
+      <ul class="list">
         <li><button type="button">Все</button></li>
         <li><button type="button">Веб-сайты</button></li>
         <li><button type="button">Приложения</button></li>
@@ -38,7 +41,7 @@
         <li><button type="button">Маркетинг</button></li>
       </ul>
       <!--  список  -->
-      <ul>
+      <ul class="list">
         <li>
           <img src="./images/portfolio/img.jpg" alt="" />
           <a href=""
@@ -91,19 +94,26 @@
         </li>
       </ul>
     </main>
-
+    <!--футер-->
     <footer>
-      <div>
-        <a href="/"> Web Studio </a>
+      <div class="page-footer">
+        <a href="/" class="logo">
+          <d class="logo-web">Web</d>
+          <d class="logo-studiofooter">Studio</d>
+        </a>
         <address>
-          <p>г. Киев, пр-т Леси Украинки, 26</p>
-          <a href="mailto:info@example.com">info@example.com</a>
-          <a href="tel:+380991111111">+38 099 111 11 11</a>
+          <p class="page-footer-address">г. Киев, пр-т Леси Украинки, 26</p>
+          <a class="page-footer-mail" href="mailto:info@example.com"
+            >info@example.com</a
+          >
+          <a class="page-footer-tel" href="tel:+380991111111"
+            >+38 099 111 11 11</a
+          >
         </address>
       </div>
       <div>
-        <b>присоединяйтесь</b>
-        <ul>
+        <b class="page-footer-goin">присоединяйтесь</b>
+        <ul class="list">
           <li><a href="">instagram</a></li>
           <li><a href="">twitter</a></li>
           <li><a href="">facebook</a></li>
@@ -111,9 +121,9 @@
         </ul>
       </div>
       <div>
-        <b>Подпишитесь на рассылку</b>
+        <b class="page-footer-sub">Подпишитесь на рассылку</b>
       </div>
-      <p>2020 | Developed by GoIT Students</p>
+      <p class="page-footer-end">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>

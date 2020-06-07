@@ -1,0 +1,68 @@
+/* цвет основного текста #212121*/
+/* вторичный цвет #757575*/
+/* белый #757575*/
+/* цвет ссылок при навидении #2196F3*/
+/* цвет тел и мыла в футоре rgba(255, 255, 255, 0.6) */
+/* цвет кем залито в конце rgba(255, 255, 255, 0.4)*/
+
+body {
+  background-color: #ffffff;
+  color: #212121;
+}
+
+p {
+  color: #757575;
+}
+h2 {
+  color: #212121;
+}
+.list {
+  list-style: none;
+}
+.logo-web {
+  color: #2196f3;
+}
+.logo > .logo-studio {
+  color: #000000;
+}
+.logo-studiofooter {
+  color: #ffffff;
+}
+header {
+  background-color: #ffffff;
+}
+.site-nav a {
+  color: #212121;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+.contact-nav-mail a {
+  color: #2196f3;
+}
+.contact-nav-tel a {
+  color: #757575;
+}
+
+footer {
+  background-color: #2f303a;
+}
+.page-footer-address {
+  color: #ffffff;
+}
+.page-footer-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+.page-footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+.page-footer-goin {
+  color: #ffffff;
+}
+.page-footer-sub {
+  color: #ffffff;
+}
+.page-footer-end {
+  color: rgba(255, 255, 255, 0.4);
+}
