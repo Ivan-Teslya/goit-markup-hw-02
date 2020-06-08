@@ -16,6 +16,7 @@
 body {
   background-color: #ffffff;
   color: var(--primari-text-color);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -29,10 +30,20 @@ p {
 .list {
   list-style: none;
 }
-.logo {
+.logo-header {
   color: var(--color-hover);
+  font-size: 26px;
 }
-
+.logo-header-studio {
+  color: #000000;
+}
+.logo-footer {
+  color: var(--color-hover);
+  font-size: 22px;
+}
+.logo-footer-studio {
+  color: white;
+}
 header {
   background-color: #ffffff;
 }
