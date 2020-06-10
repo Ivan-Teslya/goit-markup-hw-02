@@ -21,15 +21,48 @@ body {
 
 p {
   color: #757575;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
 }
 .hero-title {
+  color: #ffffff;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  background-image: url(https://s3-alpha-sig.figma.com/img/90d1/e577/08c10d3f92c87b9d3d5417f1169bcaf9?Expires=1592784000&Signature=ILxEtmAFMr2Us7ms5~cJYB0a~j~yVQAXyDQyglCFQqxMMtSUgmVt5sG5C6f7gvM6nol6ag1E9YxuBz2JpbDZGV4yywAtNVqrZUPHLpvx7K10C2MpU52WDKP7RhHLKeVgDCoXGS6H0k6O2CPDxtDZmBXebeWA3ZpnOzjCGXkgPJ0x2mrSDzQ8y6E7kUsAgNfNjCVTdkMB55JW9kKQ68hfj91M2g~DamgTzAuNqmyDZ6RD3ci2EK93pMSdTqYJ4Ch-OCxzEcgNnNP7XpFXtv1Wy19uuGIJOf02E6FdMxvZRynm25E6xcxrt8Fqph7gMPZUVSOT9W0Cxzs4nnY5tt4Ppg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
 }
 .section-title {
   color: var(--primari-text-color);
+  font-size: 36px;
+  line-height: 42p;
+  text-align: center;
 }
 .list {
   list-style: none;
 }
+
+.list-portfolio h2 {
+  font-size: 18px;
+}
+.list-portfolio p {
+  font-size: 16px;
+}
+.section-title-function h3 {
+  color: var(--primari-text-color);
+  font-size: 14px;
+}
+
+.section-title-function p {
+  font-size: 14px;
+}
+.section-title-piple {
+  color: var(--primari-text-color);
+  font-size: 16px;
+}
+
 .logo-header {
   color: var(--color-hover);
   font-size: 26px;
@@ -67,8 +100,10 @@ header {
 footer {
   background-color: #2f303a;
 }
+/*
 .page-footer-address {
   color: #ffffff;
+  text-decoration: none;
 }
 .page-footer-mail {
   color: rgba(255, 255, 255, 0.6);
@@ -76,20 +111,43 @@ footer {
 .page-footer-tel {
   color: rgba(255, 255, 255, 0.6);
 }
+*/
+.footer-addres p {
+  text-decoration: none;
+  color: var(--color-white);
+  font-size: 14px;
+  font-style: normal;
+}
+.footer-addres a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-style: normal;
+}
+
 .page-footer-goin {
   color: #ffffff;
+  font-size: 14px;
 }
 .page-footer-sub {
   color: #ffffff;
+  font-size: 14px;
 }
 .page-footer-end {
   color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  text-align: center;
 }
 .button-first {
   color: var(--color-white);
   background-color: var(--color-hover);
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
 }
 .button-second {
   color: var(--primari-text-color);
   background-color: var(--color-button);
+  font-size: 16px;
+  height: 38px;
 }

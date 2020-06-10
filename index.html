@@ -38,7 +38,7 @@
           </h1>
           <button type="button" class="button-first">Заказать услугу</button>
         </section>
-        <section class="section">
+        <section class="section section-title-function">
           <ul class="list">
             <li>
               <img
@@ -47,6 +47,7 @@
                 width="270"
                 height="120"
               />
+              <!--функции-->
               <h3>Внимание к деталям</h3>
               <p>
                 Идейные соображения, а также начало повседневной работы по
@@ -138,7 +139,7 @@
                 width="270"
                 height="260"
               />
-              <h3>John Smith</h3>
+              <h3 class="section-title-piple">John Smith</h3>
               <p>Product Designe</p>
               <ul>
                 <li>
@@ -171,7 +172,7 @@
                 width="270"
                 height="260"
               />
-              <h3>Marta Stewart</h3>
+              <h3 class="section-title-piple">Marta Stewart</h3>
               <p>Frontend Developer</p>
               <ul>
                 <li>
@@ -203,7 +204,7 @@
                 width="270"
                 height="260"
               />
-              <h3>Robert Jakis</h3>
+              <h3 class="section-title-piple">Robert Jakis</h3>
               <p>Marketing</p>
               <ul>
                 <li>
@@ -235,7 +236,7 @@
                 width="270"
                 height="260"
               />
-              <h3>Martin Doe</h3>
+              <h3 class="section-title-piple">Martin Doe</h3>
               <p>UI Designer</p>
               <ul>
                 <li>
@@ -297,11 +298,9 @@
           <span class="logo-footer-web">Web</span>
           <span class="logo-footer-studio">Studio</span>
         </a>
-        <address>
-          <p class="page-footer-address">г. Киев, пр-т Леси Украинки, 26</p>
-          <a class="page-footer-mail" href="mailto:info@example.com"
-            >info@example.com</a
-          >
+        <address class="footer-addres">
+          <p>г. Киев, пр-т Леси Украинки, 26</p>
+          <a href="mailto:info@example.com">info@example.com</a>
           <a class="page-footer-tel" href="tel:+380991111111"
             >+38 099 111 11 11</a
           >
@@ -310,14 +309,39 @@
       <div>
         <b class="page-footer-goin">присоединяйтесь</b>
         <ul class="list">
-          <li><a href="">instagram</a></li>
-          <li><a href="">twitter</a></li>
-          <li><a href="">facebook</a></li>
-          <li><a href="">linkedin</a></li>
+          <li>
+            <a href="">
+              <img src="./images/footer/instagram.png" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="./images/footer/twitter.png" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="./images/footer/facabook.png" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="./images/footer/in.png" alt="" />
+            </a>
+          </li>
         </ul>
       </div>
       <div>
-        <b class="page-footer-sub">Подпишитесь на рассылку</b>
+        <b class="page-footer-sub">подпишитесь на рассылку</b>
+        <form>
+          <input
+            type="text"
+            placeholder="E-mail"
+            name="Email"
+            id="Email-input"
+          />
+          <input type="submit" value="Подписаться" />
+        </form>
       </div>
       <p class="page-footer-end">2020 | Developed by GoIT Students</p>
     </footer>

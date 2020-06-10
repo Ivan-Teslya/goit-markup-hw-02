@@ -41,7 +41,7 @@
         <li><button type="button" class="button-second">Маркетинг</button></li>
       </ul>
       <!--  список  -->
-      <ul class="list">
+      <ul class="list list-portfolio">
         <li>
           <img src="./images/portfolio/img.jpg" alt="" />
           <a href=""
@@ -65,7 +65,7 @@
         <li>
           <img src="./images/portfolio/prime.jpg" alt="" width="370" />
           <h2>Проект Prime</h2>
-          <p></p>
+          <p>Маркетинг</p>
         </li>
         <li>
           <img src="./images/portfolio/boxes.jpg" alt="" width="370" />
@@ -101,11 +101,9 @@
           <span class="logo-footer-web">Web</span>
           <span class="logo-footer-studio">Studio</span>
         </a>
-        <address>
-          <p class="page-footer-address">г. Киев, пр-т Леси Украинки, 26</p>
-          <a class="page-footer-mail" href="mailto:info@example.com"
-            >info@example.com</a
-          >
+        <address class="footer-addres">
+          <p>г. Киев, пр-т Леси Украинки, 26</p>
+          <a href="mailto:info@example.com">info@example.com</a>
           <a class="page-footer-tel" href="tel:+380991111111"
             >+38 099 111 11 11</a
           >
@@ -121,7 +119,16 @@
         </ul>
       </div>
       <div>
-        <b class="page-footer-sub">Подпишитесь на рассылку</b>
+        <b class="page-footer-sub">подпишитесь на рассылку</b>
+        <form>
+          <input
+            type="text"
+            placeholder="E-mail"
+            name="Email"
+            id="Email-input"
+          />
+          <input type="submit" value="Подписаться" />
+        </form>
       </div>
       <p class="page-footer-end">2020 | Developed by GoIT Students</p>
     </footer>
