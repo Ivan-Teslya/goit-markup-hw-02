@@ -16,7 +16,8 @@
 body {
   background-color: #ffffff;
   color: var(--primari-text-color);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 p {
@@ -30,25 +31,49 @@ a {
 .hero-title {
   color: #ffffff;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   background-image: url(https://s3-alpha-sig.figma.com/img/90d1/e577/08c10d3f92c87b9d3d5417f1169bcaf9?Expires=1592784000&Signature=ILxEtmAFMr2Us7ms5~cJYB0a~j~yVQAXyDQyglCFQqxMMtSUgmVt5sG5C6f7gvM6nol6ag1E9YxuBz2JpbDZGV4yywAtNVqrZUPHLpvx7K10C2MpU52WDKP7RhHLKeVgDCoXGS6H0k6O2CPDxtDZmBXebeWA3ZpnOzjCGXkgPJ0x2mrSDzQ8y6E7kUsAgNfNjCVTdkMB55JW9kKQ68hfj91M2g~DamgTzAuNqmyDZ6RD3ci2EK93pMSdTqYJ4Ch-OCxzEcgNnNP7XpFXtv1Wy19uuGIJOf02E6FdMxvZRynm25E6xcxrt8Fqph7gMPZUVSOT9W0Cxzs4nnY5tt4Ppg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
 }
 .section-title {
   color: var(--primari-text-color);
+  font-weight: bold;
   font-size: 36px;
-  line-height: 42p;
+  line-height: 1.17;
   text-align: center;
 }
+
 .list {
   list-style: none;
 }
+.list h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.list p {
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+}
 
 .list-portfolio h2 {
+  font-weight: bold;
   font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .list-portfolio p {
   font-size: 16px;
+  line-height: 1.87px;
+}
+.list-portfolio a {
+  font-size: 18px;
+  line-height: 1.56;
 }
 .section-title-function h3 {
   color: var(--primari-text-color);
@@ -58,14 +83,20 @@ a {
 .section-title-function p {
   font-size: 14px;
 }
-.section-title-piple {
+.section-people h3 {
   color: var(--primari-text-color);
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
 }
-
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+}
 .logo-header {
   color: var(--color-hover);
   font-size: 26px;
+  line-height: 1.19;
 }
 .logo-header-studio {
   color: #000000;
@@ -73,6 +104,7 @@ a {
 .logo-footer {
   color: var(--color-hover);
   font-size: 22px;
+  line-height: 1.18;
 }
 .logo-footer-studio {
   color: white;
@@ -80,6 +112,20 @@ a {
 header {
   background-color: #ffffff;
 }
+
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contact-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 .site-nav a {
   color: var(--primari-text-color);
 }
@@ -112,6 +158,9 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 */
+.footer-addres {
+  line-height: 1.71;
+}
 .footer-addres p {
   text-decoration: none;
   color: var(--color-white);
@@ -124,7 +173,11 @@ footer {
   font-size: 14px;
   font-style: normal;
 }
-
+.page-footer b {
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
 .page-footer-goin {
   color: #ffffff;
   font-size: 14px;
@@ -145,9 +198,16 @@ footer {
   width: 200px;
   height: 50px;
 }
+
 .button-second {
   color: var(--primari-text-color);
   background-color: var(--color-button);
   font-size: 16px;
   height: 38px;
+}
+
+.button-second:hover,
+.button-second:focus {
+  color: var(--color-white);
+  background-color: var(--color-hover);
 }
